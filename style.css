@@ -6,11 +6,12 @@
     margin: 0;
     padding: 0;
     font-size: 1em;
+    
 }
 
 html, body{
     min-height: 100vh;
-
+    background-color: whitesmoke;
 }
 
 header.titulo{
@@ -23,11 +24,13 @@ header.titulo{
 }
 
 header > h1{
-    font: bold 10vw 'Passion One'
+    font: bold 10vw 'Passion One';
+    font-variant: small-caps;
 }
 
 header > p{
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
 }
 
 header > p > a{
@@ -69,7 +72,7 @@ section.text{
 }
 
 section.FundoCartas{
-    background: whitesmoke url(imagens/background002.jpg) center center ;
+    background: rgb(255, 254, 254) url(imagens/background002.jpg) center center ;
     background-size: cover;
     color: whitesmoke;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
